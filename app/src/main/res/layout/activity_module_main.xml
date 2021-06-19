@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:baselineAligned="false"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:id="@+id/textView_ModuleNameMain"
+        android:text="@string/moduleName"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:minHeight="100dp"
+            android:backgroundTint="@color/ColMAIN3"
+            android:text="@string/learn"
+            android:id="@+id/btn_learn"
+            android:textSize="25sp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:minHeight="100dp"
+            android:backgroundTint="@color/ColMAIN2"
+            android:text="@string/backTo"
+            android:id="@+id/btn_exitFromModuleMain"
+            android:textSize="25sp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:minHeight="100dp"
+            android:backgroundTint="@color/ColMAIN3"
+            android:text="@string/test"
+            android:id="@+id/btn_test"
+            android:textSize="25sp"/>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:id="@+id/textView_Res"
+        android:text="@string/software_analize"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:text="@string/startTotal"
+        android:background="@color/ColMAIN"
+        android:id="@+id/textView_Total"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:id="@+id/textView_Mistakes"/>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listOfMistakes"/>
+
+</LinearLayout>
