@@ -16,7 +16,7 @@ import java.util.Random;
 
 import static ru.samsung.final_project.R.string.QuestionNumber;
 
-public class Tester { // Класс, который реализует механику тестирования (использование в TestActivity)
+public class Tester { // Класс, который реализует механику тестирования (использование в TestActivity).
     private int Points = 0;
     Random random = new Random();
 
