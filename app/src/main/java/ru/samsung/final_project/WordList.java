@@ -201,7 +201,7 @@ public class WordList {
         words.add(new Word("port", "[pɔːt]", "разъем, порт"));
         words.add(new Word("power supply unit", "[ˈpaʊə səˈplaɪ]", "блок питания"));
         words.add(new Word("solid-state drive", "[ˈsɒlɪd steɪt draɪv]", "твердотельный накопитель"));
-        words.add(new Word("sound card (audio card)", "[saʊnd kɑːd]", "звуковая карта"));
+        words.add(new Word("sound card", "[saʊnd kɑːd]", "звуковая карта"));
         words.add(new Word("storage device", "[ˈstɔːrɪʤ dɪˈvaɪs]", "запоминающее устройство, накопитель"));
         words.add(new Word("touch screen", "[tʌʧ skriːn]", "сенсорный экран"));
         words.add(new Word("air cooling", "[eə ˈkuːlɪŋ]", "воздушное охлаждение"));
