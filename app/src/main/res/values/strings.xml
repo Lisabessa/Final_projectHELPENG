@@ -32,10 +32,10 @@
     <string name="InputName">Введите имя</string>
     <string name="save">Сохранить</string>
     <string name="delete">Удалить</string>
-    <string name="error1">Нет статистики</string>
+    <string name="error1">Запись статистики не производится. Для синхронизации своих результатов выйдите из этого профиля и выберите другой.</string>
     <string name="UserExit">Выход из профиля</string>
     <string name="UpdateUser">Обновить</string>
-    <string name="defaultUser">Пользователь</string>
+    <string name="defaultUser">Аккаунт по умолчанию</string>
     <string name="TRANSCRIPTION">Транскрипция</string>
     <string name="TRANSLATE">Перевод</string>
     <string name="NAME">Название</string>

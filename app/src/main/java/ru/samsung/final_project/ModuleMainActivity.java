@@ -145,6 +145,25 @@ public class ModuleMainActivity extends AppCompatActivity { // Главная а
 
 
         }
+        else if(General_count != 0 && userId == 0) {
+            tv_results.setText("Ваши результаты:\n" + Result + " из " + General_count + " ");
+            Percentage = Double.parseDouble(String.valueOf(Result)) / Double.parseDouble(String.valueOf(General_count)) * 100;
+            tv_results.append("(" + Math.round(Percentage) + "%)");
+
+            if (Math.round(Percentage) == 100) { // Определение комментария к результатам пользователя
+                tv_total.setBackgroundResource(R.color.ColMAIN);
+                tv_total.setText("Отлично! Тема полностью усвоена!");
+            } else {
+                if (Math.round(Percentage) >= 95) {
+                    tv_total.setText("Хорошая работа! Так держать!");
+                    tv_total.setBackgroundResource(R.color.ColMAIN3);
+                } else {
+                    tv_total.setText("Попробуйте ещё раз!");
+                    tv_total.setBackgroundResource(R.color.ColMAIN2);
+                }
+                tv_mistakes.setText("Слова, которые Вам нужно повторить:");
+            }
+        }
 
         btn_learn.setOnClickListener(new View.OnClickListener() {
             @Override

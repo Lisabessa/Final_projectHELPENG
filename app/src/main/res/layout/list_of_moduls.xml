@@ -24,7 +24,7 @@
                    android:layout_width="match_parent"
                    android:layout_height="wrap_content"
                    android:id="@+id/info_about_app"
-                   android:minHeight="150dp"
+                   android:minHeight="175dp"
                    android:text="@string/error1"
                    android:textSize="25dp"
                    />
